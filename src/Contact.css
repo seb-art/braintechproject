@@ -1,20 +1,23 @@
-.contact{
+.contact {
     background-color: #191919;
 }
+
 h1.hire__text {
     font-size: 60px;
 }
-p.hire__text{
+
+p.hire__text {
     font-size: 18px;
     line-height: 30px;
-    color: rgba(29,29,36,.75);
+    color: rgba(29, 29, 36, .75);
     font-weight: 400;
 }
-input.contact{
+
+input.contact {
     display: block;
     width: 100%;
     padding: 0 20px;
-    border: 2px solid rgba(0,0,0,.1);
+    border: 2px solid rgba(0, 0, 0, .1);
     border-radius: 5px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -26,15 +29,17 @@ input.contact{
     font-size: 15px;
     letter-spacing: .1px;
     background: none;
-    border: 2px solid hsla(0,0%,100%,.2);
+    border: 2px solid hsla(0, 0%, 100%, .2);
 }
-.contact__img{
+
+.contact__img {
     border-radius: 10px;
     width: 100%;
     overflow: hidden;
 }
-textarea#message{
-    height: 120px;
+
+textarea #message {
+    height: 25vh;
     background: none;
     padding: 0 20px;
     width: 100%;
@@ -42,8 +47,15 @@ textarea#message{
     color: #fff;
     font-size: 15px;
     letter-spacing: .1px;
-    border: 2px solid hsla(0,0%,100%,.2);
+    border: 2px solid hsla(0, 0%, 100%, .2);
 }
+
 button.btn.contact.pointer {
     margin: 20px 0px;
+}
+
+.input__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
