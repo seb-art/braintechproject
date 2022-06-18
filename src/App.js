@@ -1,11 +1,11 @@
-import About from "./About";
+import About from "./components/about/About";
 import "./App.css";
-import Blog from "./Blog";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import Home from "./Home";
-import Project from "./Project";
-import Service from "./Service";
+import Blog from "./components/blog/Blog";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/Footer";
+import Home from "./components/home/Home";
+import Project from "./components/projects/Project";
+import Service from "./components/service/Service";
 
 function App() {
   return (
