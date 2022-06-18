@@ -38,7 +38,17 @@ input.contact {
     overflow: hidden;
 }
 
-textarea #message {
+button.btn.contact.pointer {
+    margin: 20px 0px;
+}
+
+.input__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact_message_box {
     height: 25vh;
     background: none;
     padding: 0 20px;
@@ -48,14 +58,4 @@ textarea #message {
     font-size: 15px;
     letter-spacing: .1px;
     border: 2px solid hsla(0, 0%, 100%, .2);
-}
-
-button.btn.contact.pointer {
-    margin: 20px 0px;
-}
-
-.input__box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
